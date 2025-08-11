@@ -27,3 +27,8 @@ It uses the **accelerometer sensor** to detect shake motion and generates a rand
 ---
 
 ## 📂 Project Structure
+app/
+├── java/com/example/myapplication1/MainActivity.java # Main activity with shake detection logic
+├── res/layout/activity_main.xml # UI layout with a simple TextView
+├── AndroidManifest.xml # App manifest
+
