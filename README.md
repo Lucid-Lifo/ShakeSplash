@@ -28,7 +28,25 @@ It uses the **accelerometer sensor** to detect shake motion and generates a rand
 
 ## 📂 Project Structure
 app/
-├── java/com/example/myapplication1/MainActivity.java # Main activity with shake detection logic
-├── res/layout/activity_main.xml # UI layout with a simple TextView
-├── AndroidManifest.xml # App manifest
+   ├── java/com/example/myapplication1/MainActivity.java # Main activity with shake detection logic
+   ├── res/layout/activity_main.xml # UI layout with a simple TextView
+   ├── AndroidManifest.xml # App manifest
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Android Studio** (latest version recommended)
+- **Android SDK 21+**
+- A physical Android device or emulator **with accelerometer support**
+
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Lucid-Lifo/ShakeSplash.git
+2. **Open the project in Android Studio.**
+3. **Build and run the app on your device or emulator.**
+
+##⚙️ Configuration
+You can adjust the shake sensitivity by modifying the threshold value in MainActivity.java:
+   threshold = 800; // Lower value = more sensitive
 
