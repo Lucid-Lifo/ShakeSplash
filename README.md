@@ -52,4 +52,7 @@ app/
 ---
 ## ⚙️ Configuration
 You can adjust the shake sensitivity by modifying the threshold value in MainActivity.java:
+```bash
    threshold = 800; // Lower value = more sensitive
+```
+---
